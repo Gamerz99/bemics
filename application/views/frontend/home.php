@@ -14,7 +14,7 @@ $this->load->view('layout/header1');
             <div class="container">
                 <div class="row">
                     <div class="col-md-2">
-                        <div id="colorlib-logo"><a href="index.html">Bemics</a></div>
+                        <div id="colorlib-logo"><a href="<?php echo base_url(); ?>index.php/home">Bemics</a></div>
                     </div>
                     <div class="col-md-10 text-right menu-1">
                         <ul>
@@ -31,7 +31,7 @@ $this->load->view('layout/header1');
     <aside id="colorlib-hero" class="colorlib-degree-bg">
         <div class="flexslider">
             <ul class="slides">
-                <li style="background-image: url(<?php echo base_url(); ?>/flayout/images/img_bg_1.jpg);">
+                <li style="background-image: url(<?php echo base_url(); ?>/flayout/images/slides/img_bg_1.jpg);">
                     <div class="overlay"></div>
                     <div class="container-fluid">
                         <div class="row">
@@ -49,7 +49,7 @@ $this->load->view('layout/header1');
                         </div>
                     </div>
                 </li>
-                <li style="background-image: url(<?php echo base_url(); ?>/flayout/images/img_bg_2.jpg);">
+                <li style="background-image: url(<?php echo base_url(); ?>/flayout/images/slides/img_bg_2.jpg);">
                     <div class="overlay"></div>
                     <div class="container-fluid">
                         <div class="row">
@@ -67,7 +67,7 @@ $this->load->view('layout/header1');
                         </div>
                     </div>
                 </li>
-                <li style="background-image: url(<?php echo base_url(); ?>/flayout/images/img_bg_3.jpg);">
+                <li style="background-image: url(<?php echo base_url(); ?>/flayout/images/slides/img_bg_3.jpg);">
                     <div class="overlay"></div>
                     <div class="container-fluid">
                         <div class="row">
@@ -85,7 +85,7 @@ $this->load->view('layout/header1');
                         </div>
                     </div>
                 </li>
-                <li style="background-image: url(<?php echo base_url(); ?>/flayout/images/img_bg_4.jpg);">
+                <li style="background-image: url(<?php echo base_url(); ?>/flayout/images/slides/img_bg_4.jpg);">
                     <div class="overlay"></div>
                     <div class="container-fluid">
                         <div class="row">
@@ -174,19 +174,20 @@ $this->load->view('layout/header1');
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-12 animate-box">
-                            <div class="services-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/home1.jpg);"></div>
+                            <div class="services-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/content/home1.jpg);"></div>
                         </div>
                         <div class="col-md-6 animate-box">
-                            <div class="services-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/home2.jpg);"></div>
+                            <div class="services-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/content/home2.jpg);"></div>
                         </div>
                         <div class="col-md-6 animate-box">
-                            <div class="services-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/home3.jpg);"></div>
+                            <div class="services-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/content/home3.jpg);"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div id="colorlib-schedule" class="colorlib-light-grey">
         <div class="container">
             <div class="row">
@@ -195,40 +196,58 @@ $this->load->view('layout/header1');
                     <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4 text-center animate-box">
-                    <div class="classes">
-                        <div class="classes-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/classes-1.jpg);">
-                            <p class="price text-center"><span>$25.00<br></span></p>
+            <div class="row slideanim">
+                <div class="col-sm-4 col-xs-12">
+                    <div class="panel panel-default text-center animate-box">
+                        <div class="panel-heading">
+                            <h1 >Basic</h1>
                         </div>
-                        <div class="desc">
-                            <h3><a href="#">BASIC</a></h3>
-                            <p>Pointing has no control about the blind texts it is an almost unorthographic life</p>
-                            <p><a href="#" class="btn-learn">Learn More <i class="icon-arrow-right3"></i></a></p>
+                        <div class="panel-body">
+                            <p><strong>20</strong> Lorem</p>
+                            <p><strong>15</strong> Ipsum</p>
+                            <p><strong>5</strong> Dolor</p>
+                            <p><strong>2</strong> Sit</p>
+                            <p><strong>Endless</strong> Amet</p>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center animate-box">
-                    <div class="classes">
-                        <div class="classes-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/classes-2.jpg);">
-                            <p class="price text-center"><span>$45.00<br></span></p>
-                        </div>
-                        <div class="desc">
-                            <h3><a href="#">STANDARD</a></h3>
-                            <p>Pointing has no control about the blind texts it is an almost unorthographic life</p>
-                            <p><a href="#" class="btn-learn">Learn More <i class="icon-arrow-right3"></i></a></p>
+                        <div class="panel-footer">
+                            <h3>$19</h3>
+                            <button class="btn btn-lg">Sign Up</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 text-center animate-box">
-                    <div class="classes">
-                        <div class="classes-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/classes-3.jpg);">
-                            <p class="price text-center"><span>$100.00<br></span></p>
+                <div class="col-sm-4 col-xs-12">
+                    <div class="panel panel-default text-center animate-box">
+                        <div class="panel-heading">
+                            <h1 >Pro</h1>
                         </div>
-                        <div class="desc">
-                            <h3><a href="#">PREMIUM</a></h3>
-                            <p>Pointing has no control about the blind texts it is an almost unorthographic life</p>
-                            <p><a href="#" class="btn-learn">Learn More <i class="icon-arrow-right3"></i></a></p>
+                        <div class="panel-body">
+                            <p><strong>50</strong> Lorem</p>
+                            <p><strong>25</strong> Ipsum</p>
+                            <p><strong>10</strong> Dolor</p>
+                            <p><strong>5</strong> Sit</p>
+                            <p><strong>Endless</strong> Amet</p>
+                        </div>
+                        <div class="panel-footer">
+                            <h3>$29</h3>
+                            <button class="btn btn-lg">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <div class="panel panel-default text-center animate-box">
+                        <div class="panel-heading">
+                            <h1 >Premium</h1>
+                        </div>
+                        <div class="panel-body">
+                            <p><strong>100</strong> Lorem</p>
+                            <p><strong>50</strong> Ipsum</p>
+                            <p><strong>25</strong> Dolor</p>
+                            <p><strong>10</strong> Sit</p>
+                            <p><strong>Endless</strong> Amet</p>
+                        </div>
+                        <div class="panel-footer">
+                            <h3>$49</h3>
+                            <button class="btn btn-lg">Sign Up</button>
                         </div>
                     </div>
                 </div>
@@ -249,7 +268,7 @@ $this->load->view('layout/header1');
                     <div class="item">
                         <div class="col-md-12 text-center">
                             <div class="trainers-entry">
-                                <div class="trainer-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/trainer-1.jpg)"></div>
+                                <div class="trainer-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/best/logo_1.png)"></div>
                                 <div class="desc">
                                     <h3>Diego Carter</h3>
                                     <span>business logo</span>
@@ -260,7 +279,7 @@ $this->load->view('layout/header1');
                     <div class="item">
                         <div class="col-md-12 text-center">
                             <div class="trainers-entry">
-                                <div class="trainer-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/trainer-2.jpg)"></div>
+                                <div class="trainer-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/best/logo_2.png)"></div>
                                 <div class="desc">
                                     <h3>Lea Young</h3>
                                     <span>business logo</span>
@@ -271,7 +290,7 @@ $this->load->view('layout/header1');
                     <div class="item">
                         <div class="col-md-12 text-center">
                             <div class="trainers-entry">
-                                <div class="trainer-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/trainer-3.jpg)"></div>
+                                <div class="trainer-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/best/logo_3.png)"></div>
                                 <div class="desc">
                                     <h3>Alysha Reed</h3>
                                     <span>business logo</span>
@@ -282,7 +301,7 @@ $this->load->view('layout/header1');
                     <div class="item">
                         <div class="col-md-12 text-center">
                             <div class="trainers-entry">
-                                <div class="trainer-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/trainer-4.jpg)"></div>
+                                <div class="trainer-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/best/logo_4.png)"></div>
                                 <div class="desc">
                                     <h3>George Cooper</h3>
                                     <span>business logo</span>
@@ -293,7 +312,7 @@ $this->load->view('layout/header1');
                     <div class="item">
                         <div class="col-md-12 text-center">
                             <div class="trainers-entry">
-                                <div class="trainer-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/trainer-2.jpg)"></div>
+                                <div class="trainer-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/best/logo_2.png)"></div>
                                 <div class="desc">
                                     <h3>Melody Moxin</h3>
                                     <span>business logo</span>
@@ -307,7 +326,7 @@ $this->load->view('layout/header1');
     </div>
 
 
-    <div id="colorlib-counter" class="colorlib-counters colorlib-degree-bg" style="background-image: url(<?php echo base_url(); ?>flayout/images/intro-img-1.jpg);" data-stellar-background-ratio="0.5">
+    <div id="colorlib-counter" class="colorlib-counters colorlib-degree-bg" style="background-image: url(<?php echo base_url(); ?>flayout/images/content/intro-img-1.jpg);" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -422,7 +441,7 @@ $this->load->view('layout/header1');
         </div>
     </div>
 
-    <div id="colorlib-testimony" class="testimony-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
+    <div id="colorlib-testimony" class="testimony-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/content/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container-fluid">
             <div class="row">

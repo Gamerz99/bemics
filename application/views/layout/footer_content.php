@@ -1,19 +1,7 @@
 <footer id="colorlib-footer">
     <div class="container">
         <div class="row row-pb-md">
-            <div class="col-md-4 colorlib-widget text-center">
-                <h4>About Bemics</h4>
-                <p>Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                <p>
-                <ul class="colorlib-social-icons">
-                    <li><a href="#"><i class="icon-twitter"></i></a></li>
-                    <li><a href="#"><i class="icon-facebook"></i></a></li>
-                    <li><a href="#"><i class="icon-linkedin"></i></a></li>
-                    <li><a href="#"><i class="icon-dribbble"></i></a></li>
-                </ul>
-                </p>
-            </div>
-            <div class="col-md-4 colorlib-widget text-center">
+            <div class="col-md-4 colorlib-widget text-left">
                 <h4>Quick Links</h4>
                 <p>
                 <ul class="colorlib-footer-links">
@@ -26,6 +14,19 @@
             </div>
 
             <div class="col-md-4 colorlib-widget text-center">
+                <h4>About Bemics</h4>
+                <p>Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                <p>
+                <ul class="colorlib-social-icons">
+                    <li><a href="#"><i class="icon-twitter"></i></a></li>
+                    <li><a href="#"><i class="icon-facebook"></i></a></li>
+                    <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                    <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                </ul>
+                </p>
+            </div>
+
+            <div class="col-md-4 colorlib-widget text-right">
                 <h4>Contact Info</h4>
                 <ul class="colorlib-footer-links">
                     <li>291 South 21th Street, <br> Suite 721 New York NY 10016</li>
