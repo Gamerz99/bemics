@@ -9,25 +9,27 @@ $this->load->view('layout/header1');
 <div class="colorlib-loader"></div>
 
 <div id="page">
-    <nav class="colorlib-nav" role="navigation">
-        <div class="top-menu">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2">
-                        <div id="colorlib-logo"><a href="<?php echo base_url(); ?>index.php/home">Bemics</a></div>
-                    </div>
-                    <div class="col-md-10 text-right menu-1">
-                        <ul>
-                            <li><a href="<?php echo base_url(); ?>index.php/home">Home</a></li>
-                            <li><a href="<?php echo base_url(); ?>index.php/about">About</a></li>
-                            <li class="active"><a href="<?php echo base_url(); ?>index.php/portfolio">Portfolio</a></li>
-                            <li><a href="<?php echo base_url(); ?>index.php/contact">Contact</a></li>
-                        </ul>
+    <div class="fixed-top">
+        <nav class="colorlib-nav" role="navigation">
+            <div class="top-menu nav-menu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div id="colorlib-logo"><a href="<?php echo base_url(); ?>index.php/home">Bemics</a></div>
+                        </div>
+                        <div class="col-md-10 text-right menu-1">
+                            <ul>
+                                <li><a href="<?php echo base_url(); ?>index.php/home">Home</a></li>
+                                <li><a href="<?php echo base_url(); ?>index.php/about">About</a></li>
+                                <li class="active"><a href="<?php echo base_url(); ?>index.php/portfolio">Portfolio</a></li>
+                                <li><a href="<?php echo base_url(); ?>index.php/contact">Contact</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
     <aside id="colorlib-hero" class="colorlib-degree-bg">
         <div class="flexslider">
             <ul class="slides">

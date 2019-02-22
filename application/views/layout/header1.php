@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>flayout/fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>flayout/css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>flayout/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="<?php echo base_url(); ?>flayout/js/modernizr-2.6.2.min.js"></script>
     <script src="<?php echo base_url(); ?>flayout/js/respond.min.js"></script>

@@ -4,30 +4,33 @@
 <?php
 $this->load->view('layout/header1');
 ?>
-<body>
+<body >
 
 <div class="colorlib-loader"></div>
 
 <div id="page">
-    <nav class="colorlib-nav" role="navigation">
-        <div class="top-menu">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2">
-                        <div id="colorlib-logo"><a href="<?php echo base_url(); ?>index.php/home">Bemics</a></div>
-                    </div>
-                    <div class="col-md-10 text-right menu-1">
-                        <ul>
-                            <li class="active"><a href="<?php echo base_url(); ?>index.php/home">Home</a></li>
-                            <li><a href="<?php echo base_url(); ?>index.php/about">About</a></li>
-                            <li><a href="<?php echo base_url(); ?>index.php/portfolio">Portfolio</a></li>
-                            <li><a href="<?php echo base_url(); ?>index.php/contact">Contact</a></li>
-                        </ul>
+    <div class="fixed-top">
+        <nav class="colorlib-nav " role="navigation">
+            <div class="top-menu nav-menu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div id="colorlib-logo"><a href="<?php echo base_url(); ?>index.php/home">Bemics</a></div>
+                        </div>
+                        <div class="col-md-10 text-right menu-1">
+                            <ul>
+                                <li class="active"><a href="<?php echo base_url(); ?>index.php/home">Home</a></li>
+                                <li><a href="<?php echo base_url(); ?>index.php/about">About</a></li>
+                                <li><a href="<?php echo base_url(); ?>index.php/portfolio">Portfolio</a></li>
+                                <li><a href="<?php echo base_url(); ?>index.php/contact">Contact</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
+
     <aside id="colorlib-hero" class="colorlib-degree-bg">
         <div class="flexslider">
             <ul class="slides">
@@ -116,10 +119,13 @@ $this->load->view('layout/header1');
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
-                    <h2>Strategy Meets Art</h2>
-                    <p>Visual content converts faster than words alone. How’s that for ROI?
-                        Content marketing strategies powered by dynamic media outperform all others, and with a variety of visual assets supporting your marketing, we turn your brand into an ROI engine.
-                        Attract a larger audience, nurture high-intent prospects and enhance customer engagement with design that matters.</p>
+                    <div class="area-title">
+                        <h2>Strategy <span>Meets Art</span></h2>
+                        <span class="icon-and-border"><i class="icon-loader"></i></span>
+                        <p>Visual content converts faster than words alone. How’s that for ROI?
+                            Content marketing strategies powered by dynamic media outperform all others, and with a variety of visual assets supporting your marketing, we turn your brand into an ROI engine.
+                            Attract a larger audience, nurture high-intent prospects and enhance customer engagement with design that matters.</p>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -189,11 +195,15 @@ $this->load->view('layout/header1');
     </div>
 
     <div id="colorlib-schedule" class="colorlib-light-grey">
+
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
-                    <h2>Our Packages</h2>
-                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+                    <div class="area-title">
+                        <h2>Pricing <span>Table</span></h2>
+                        <span class="icon-and-border"><i class="icon-diamond"></i></span>
+                        <p>Rapidiously monetize state of the art ROI rather than quality. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim neque aliquid.</p>
+                    </div>
                 </div>
             </div>
             <div class="row slideanim">
@@ -259,8 +269,11 @@ $this->load->view('layout/header1');
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
-                    <h2>Our Best</h2>
-                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+                    <div class="area-title">
+                        <h2>Our <span>Best</span></h2>
+                        <span class="icon-and-border"><i class="icon-alarm"></i></span>
+                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+                    </div>
                 </div>
             </div>
             <div class="row animate-box">
@@ -331,8 +344,10 @@ $this->load->view('layout/header1');
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
-                    <h2>What we offer</h2>
-                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+                    <div class="area-title">
+                        <h2>What <span>We offer</span></h2>
+                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -378,8 +393,11 @@ $this->load->view('layout/header1');
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
-                    <h2>Our Productivity</h2>
-                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+                    <div class="area-title">
+                        <h2>Our <span>Productivity</span></h2>
+                        <span class="icon-and-border"><i class="icon-price-tags"></i></span>
+                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -446,7 +464,9 @@ $this->load->view('layout/header1');
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
-                    <h2>What people says behind their success</h2>
+                    <div class="area-title">
+                        <h2>What's say our <span>Clients</span></h2>
+                    </div>
                 </div>
             </div>
             <div class="row">
