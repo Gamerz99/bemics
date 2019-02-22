@@ -1958,63 +1958,6 @@ input[type="text"] {
   color: #fff;
 }
 
-/*---------------------------------
-    13. PRICE AERA
------------------------------------*/
-
-.single-price {
-  background: #ffffff none repeat scroll 0 0;
-  -webkit-box-shadow: 0 0 10px #dddfe0;
-  box-shadow: 0 0 10px #dddfe0;
-  margin-bottom: 30px;
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.price-hidding {
-  padding: 30px 30px 15px;
-}
-
-.price-rate {
-  background: #f8fafc none repeat scroll 0 0;
-  padding: 25px 0;
-}
-
-.price-rate h2 {
-  color: #f4511e;
-  font-family: open sans;
-  font-size: 70px;
-  margin-bottom: 0;
-}
-
-.price-rate h2 sub {
-  font-size: 18px;
-}
-
-.price-details {
-  padding: 30px 0 20px;
-}
-
-.price-details li {
-  padding: 10px;
-}
-
-.buy-now-button {
-  padding: 25px 0 50px;
-}
-
-.buy-now-button a {
-  border-radius: 50px;
-  letter-spacing: 2px;
-}
-
-.single-price:hover {
-  -webkit-box-shadow: 0 0 20px #dddddd;
-  box-shadow: 0 0 20px #dddddd;
-  -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
-}
-
 /*-----------------------
     SECTION TITLE
 ------------------------*/
@@ -2123,7 +2066,7 @@ input[type="text"] {
 
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
-  background-color: rgb(74, 13, 143);
+  background-color: #f4511e;
   background: -moz-linear-gradient(135deg, #000 0%, #f4511e 100%);
   background: -webkit-linear-gradient(135deg, #000 0%, #f4511e 100%);
   background: linear-gradient(135deg, #000 0%, #f4511e 100%);

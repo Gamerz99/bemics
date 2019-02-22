@@ -15,14 +15,14 @@ $this->load->view('layout/header1');
                 <div class="container">
                     <div class="row">
                         <div class="col-md-2">
-                            <div id="colorlib-logo"><a href="<?php echo base_url(); ?>index.php/home">Bemics</a></div>
+                            <div id="colorlib-logo"><a href="<?php echo base_url(); ?>home">Bemics</a></div>
                         </div>
                         <div class="col-md-10 text-right menu-1">
                             <ul>
-                                <li class="active"><a href="<?php echo base_url(); ?>index.php/home">Home</a></li>
-                                <li><a href="<?php echo base_url(); ?>index.php/about">About</a></li>
-                                <li><a href="<?php echo base_url(); ?>index.php/portfolio">Portfolio</a></li>
-                                <li><a href="<?php echo base_url(); ?>index.php/contact">Contact</a></li>
+                                <li class="active"><a href="<?php echo base_url(); ?>home">Home</a></li>
+                                <li><a href="<?php echo base_url(); ?>about">About</a></li>
+                                <li><a href="<?php echo base_url(); ?>portfolio">Portfolio</a></li>
+                                <li><a href="<?php echo base_url(); ?>contact">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -459,7 +459,7 @@ $this->load->view('layout/header1');
         </div>
     </div>
 
-    <div id="colorlib-testimony" class="testimony-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/content/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
+    <div id="colorlib-testimony" class="testimony-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/content/intro-img-2.jpg);" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container-fluid">
             <div class="row">
