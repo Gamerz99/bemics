@@ -3,8 +3,9 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 $config = array(
-    'save_brand' => array(
-        array('field' => 'name', 'label' => 'name', 'rules' => 'required')
+    'save_portfolio' => array(
+        array('field' => 'title', 'label' => 'title', 'rules' => 'required'),
+        array('field' => 'image', 'label' => 'image')
     ),
     'save_tool' => array(
         array('field' => 'name', 'label' => 'name', 'rules' => 'required'),

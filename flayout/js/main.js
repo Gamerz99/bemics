@@ -373,14 +373,13 @@
 		sliderMain();
 		dropdown();
 		goToTop();
-		loaderPage();
 		counter();
+		loaderPage();
 		counterWayPoint();
 		parallax();
 		owlCrouselFeatureSlide();
 		goHere();
 		datePicker();
 	});
-
 
 }());

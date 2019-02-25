@@ -1,12 +1,28 @@
-<script src="<?php echo base_url(); ?>flayout/js/jquery.min.js"></script>
-<script src="<?php echo base_url(); ?>flayout/js/jquery.easing.1.3.js"></script>
-<script src="<?php echo base_url(); ?>flayout/js/bootstrap.min.js"></script>
-<script src="<?php echo base_url(); ?>flayout/js/jquery.waypoints.min.js"></script>
-<script src="<?php echo base_url(); ?>flayout/js/jquery.stellar.min.js"></script>
-<script src="<?php echo base_url(); ?>flayout/js/jquery.flexslider-min.js"></script>
-<script src="<?php echo base_url(); ?>flayout/js/owl.carousel.min.js"></script>
-<script src="<?php echo base_url(); ?>flayout/js/jquery.magnific-popup.min.js"></script>
-<script src="<?php echo base_url(); ?>flayout/js/magnific-popup-options.js"></script>
-<script src="<?php echo base_url(); ?>flayout/js/jquery.countTo.js"></script>
-<script src="<?php echo base_url(); ?>flayout/js/bootstrap-datepicker.js"></script>
-<script src="<?php echo base_url(); ?>flayout/js/main.js"></script>
+<footer class="main-footer">
+    <strong>Copyright &copy; 2018  All rights
+        reserved.
+</footer>
+</div>
+<script src="<?php echo base_url(); ?>layout/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="<?php echo base_url(); ?>layout/bower_components/jquery-ui/jquery-ui.min.js"></script>
+<script>
+    $.widget.bridge('uibutton', $.ui.button);
+</script>
+<script src="<?php echo base_url(); ?>layout/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="<?php echo base_url(); ?>layout/bower_components/raphael/raphael.min.js"></script>
+<script src="<?php echo base_url(); ?>layout/bower_components/morris.js/morris.min.js"></script>
+<script src="<?php echo base_url(); ?>layout/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+<script src="<?php echo base_url(); ?>layout/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="<?php echo base_url(); ?>layout/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<script src="<?php echo base_url(); ?>layout/bower_components/jquery-knob/dist/jquery.knob.min.js"></script>
+<script src="<?php echo base_url(); ?>layout/bower_components/moment/min/moment.min.js"></script>
+<script src="<?php echo base_url(); ?>layout/bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script src="<?php echo base_url(); ?>layout/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<script src="<?php echo base_url(); ?>layout/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<script src="<?php echo base_url(); ?>layout/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="<?php echo base_url(); ?>layout/bower_components/fastclick/lib/fastclick.js"></script>
+<script src="<?php echo base_url(); ?>layout/dist/js/adminlte.min.js"></script>
+<script src="<?php echo base_url(); ?>layout/dist/js/pages/dashboard.js"></script>
+<script src="<?php echo base_url(); ?>layout/dist/js/demo.js"></script>
+</body>
+</html>

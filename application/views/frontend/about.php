@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html>
 <?php
-$this->load->view('layout/header1');
+$this->load->view('layout/header');
 ?>
 <body>
 
@@ -144,7 +144,7 @@ $this->load->view('layout/header1');
 </div>
 
 <?php
-$this->load->view('layout/footer1');
+$this->load->view('layout/footer');
 ?>
 
 </body>

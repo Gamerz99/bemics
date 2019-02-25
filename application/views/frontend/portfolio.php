@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html>
 <?php
-$this->load->view('layout/header1');
+$this->load->view('layout/header');
 ?>
 <body>
 
@@ -62,27 +62,15 @@ $this->load->view('layout/header1');
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <a href="<?php echo base_url(); ?>/flayout/images/classes-1.jpg" class="gallery-img image-popup animate-box" style="background-image: url(<?php echo base_url(); ?>/flayout/images/classes-1.jpg);">
-                        <span class="icon"><i class="icon-plus2"></i></span>
-                    </a>
-                    <a href="<?php echo base_url(); ?>/flayout/images/classes-2.jpg" class="gallery-img image-popup animate-box" style="background-image: url(<?php echo base_url(); ?>/flayout/images/classes-2.jpg);">
-                        <span class="icon"><i class="icon-plus2"></i></span>
-                    </a>
-                    <a href="<?php echo base_url(); ?>/flayout/images/classes-3.jpg" class="gallery-img image-popup animate-box" style="background-image: url(<?php echo base_url(); ?>/flayout/images/classes-3.jpg);">
-                        <span class="icon"><i class="icon-plus2"></i></span>
-                    </a>
-                    <a href="<?php echo base_url(); ?>/flayout/images/classes-4.jpg" class="gallery-img image-popup animate-box" style="background-image: url(<?php echo base_url(); ?>/flayout/images/classes-4.jpg);">
-                        <span class="icon"><i class="icon-plus2"></i></span>
-                    </a>
-                    <a href="<?php echo base_url(); ?>/flayout/images/classes-5.jpg" class="gallery-img image-popup animate-box" style="background-image: url(<?php echo base_url(); ?>/flayout/images/classes-5.jpg);">
-                        <span class="icon"><i class="icon-plus2"></i></span>
-                    </a>
-                    <a href="<?php echo base_url(); ?>/flayout/images/classes-6.jpg" class="gallery-img image-popup animate-box" style="background-image: url(<?php echo base_url(); ?>/flayout/images/classes-6.jpg);">
-                        <span class="icon"><i class="icon-plus2"></i></span>
-                    </a>
-                    <a href="<?php echo base_url(); ?>/flayout/images/classes-7.jpg" class="gallery-img image-popup animate-box" style="background-image: url(<?php echo base_url(); ?>/flayout/images/classes-7.jpg);">
-                        <span class="icon"><i class="icon-plus2"></i></span>
-                    </a>
+                    <?php
+                    if(!empty($portfolios)){
+                        foreach ($portfolios as $portfolio) { ?>
+                            <a href="<?php echo base_url(); ?>/flayout/images/portfolio/<?php echo $portfolio['image'] ?>" class="gallery-img image-popup animate-box" style="background-image: url(<?php echo base_url(); ?>/flayout/images/portfolio/<?php echo $portfolio['image'] ?>);">
+                                <span class="icon"><i class="icon-plus2"></i></span>
+                            </a>
+                        <?php
+                        }
+                    } ?>
                 </div>
             </div>
         </div>
@@ -98,7 +86,7 @@ $this->load->view('layout/header1');
 </div>
 
 <?php
-$this->load->view('layout/footer1');
+$this->load->view('layout/footer');
 ?>
 
 </body>

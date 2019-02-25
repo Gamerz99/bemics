@@ -96,7 +96,7 @@ class MainMenu {
         foreach ($query->result() as $row) {
             $id = $row->id;
             $title = $row->title;
-            $url = base_url() . "index.php/" . $row->url;
+            $url = base_url() . "" . $row->url;
             $position = $row->position;
             $target = $row->target;
             $parent_id = $row->parent_id;

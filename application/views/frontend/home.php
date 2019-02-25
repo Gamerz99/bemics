@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html>
 <?php
-$this->load->view('layout/header1');
+$this->load->view('layout/header');
 ?>
 <body >
 
@@ -44,7 +44,7 @@ $this->load->view('layout/header1');
                                         <span class="icon"><i class="flaticon-cutlery"></i></span>
                                         <h1>Logo Design</h1>
                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                        <p><a href="#" class="btn btn-primary btn-lg btn-learn">Go</a></p>
+                                        <p><a href="<?php echo base_url(); ?>portfolio" class="btn btn-primary btn-lg btn-learn">Portfolio</a></p>
                                         <div class="desc2"></div>
                                     </div>
                                 </div>
@@ -98,7 +98,7 @@ $this->load->view('layout/header1');
                                         <span class="icon"><i class="flaticon-cutlery"></i></span>
                                         <h1>Logo Design</h1>
                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                        <p><a href="#" class="btn btn-primary btn-lg btn-learn">Go</a></p>
+                                        <p><a href="<?php echo base_url(); ?>contact" class="btn btn-primary btn-lg btn-learn">Contact</a></p>
                                         <div class="desc2"></div>
                                     </div>
                                 </div>
@@ -276,14 +276,14 @@ $this->load->view('layout/header1');
                     </div>
                 </div>
             </div>
-            <div class="row animate-box">
+            <div class="row ">
                 <div class="owl-carousel">
                     <div class="item">
                         <div class="col-md-12 text-center">
                             <div class="trainers-entry">
                                 <div class="trainer-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/best/logo_1.png)"></div>
                                 <div class="desc">
-                                    <h3>Diego Carter</h3>
+                                    <h3>Jericho</h3>
                                     <span>business logo</span>
                                 </div>
                             </div>
@@ -294,7 +294,7 @@ $this->load->view('layout/header1');
                             <div class="trainers-entry">
                                 <div class="trainer-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/best/logo_2.png)"></div>
                                 <div class="desc">
-                                    <h3>Lea Young</h3>
+                                    <h3>Mnouvel</h3>
                                     <span>business logo</span>
                                 </div>
                             </div>
@@ -305,7 +305,7 @@ $this->load->view('layout/header1');
                             <div class="trainers-entry">
                                 <div class="trainer-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/best/logo_3.png)"></div>
                                 <div class="desc">
-                                    <h3>Alysha Reed</h3>
+                                    <h3>Balifa</h3>
                                     <span>business logo</span>
                                 </div>
                             </div>
@@ -316,7 +316,7 @@ $this->load->view('layout/header1');
                             <div class="trainers-entry">
                                 <div class="trainer-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/best/logo_4.png)"></div>
                                 <div class="desc">
-                                    <h3>George Cooper</h3>
+                                    <h3>Helgehirsch</h3>
                                     <span>business logo</span>
                                 </div>
                             </div>
@@ -325,9 +325,31 @@ $this->load->view('layout/header1');
                     <div class="item">
                         <div class="col-md-12 text-center">
                             <div class="trainers-entry">
-                                <div class="trainer-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/best/logo_2.png)"></div>
+                                <div class="trainer-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/best/logo_5.png)"></div>
                                 <div class="desc">
-                                    <h3>Melody Moxin</h3>
+                                    <h3>Awill</h3>
+                                    <span>business logo</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-12 text-center">
+                            <div class="trainers-entry">
+                                <div class="trainer-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/best/logo_6.png)"></div>
+                                <div class="desc">
+                                    <h3>Jorleague</h3>
+                                    <span>business logo</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-12 text-center">
+                            <div class="trainers-entry">
+                                <div class="trainer-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/best/logo_7.png)"></div>
+                                <div class="desc">
+                                    <h3>Grayludo</h3>
                                     <span>business logo</span>
                                 </div>
                             </div>
@@ -475,55 +497,55 @@ $this->load->view('layout/header1');
                         <div class="one-fifth animate-box">
                             <div class="testimony-wrap">
                                 <blockquote>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                    <p>Amazing customer service!!! Went above and beyond, very patient with all the changes that were suggested time and again!! truely professional, I will recommend this searvice Ina heartbeat!!</p>
                                 </blockquote>
                                 <div class="desc">
-                                    <div class="figure-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/person1.jpg);"></div>
-                                    <h3>Dave Henderson</h3>
+                                    <div class="figure-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/reviews/person1.jpg);"></div>
+                                    <h3>Awill</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="one-fifth animate-box">
                             <div class="testimony-wrap">
                                 <blockquote>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+                                    <p>easy to work with when he delivers such excellent work. Thank you!</p>
                                 </blockquote>
                                 <div class="desc">
-                                    <div class="figure-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/person2.jpg);"></div>
-                                    <h3>Dave Henderson</h3>
+                                    <div class="figure-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/reviews/person2.jpg);"></div>
+                                    <h3>Balifa</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="one-fifth animate-box">
                             <div class="testimony-wrap">
                                 <blockquote>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                    <p>Customer service is amazing. He is fast per Syse and knows how deliver exactly what you want. Exceeds expectations and quality and delivery speed</p>
                                 </blockquote>
                                 <div class="desc">
-                                    <div class="figure-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/person3.jpg);"></div>
-                                    <h3>Dave Henderson</h3>
+                                    <div class="figure-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/reviews/person3.jpg);"></div>
+                                    <h3>Grayludo</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="one-fifth animate-box">
                             <div class="testimony-wrap">
                                 <blockquote>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+                                    <p>Fastest designer I've ever worked with!!! His understanding of the changes needed were perfect, I'll be using again!</p>
                                 </blockquote>
                                 <div class="desc">
-                                    <div class="figure-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/person1.jpg);"></div>
-                                    <h3>Dave Henderson</h3>
+                                    <div class="figure-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/reviews/person1.jpg);"></div>
+                                    <h3>Jericho</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="one-fifth animate-box">
                             <div class="testimony-wrap">
                                 <blockquote>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+                                    <p>GREAT experience, really QUICK response, really patience, TOP communication. AMAZING work! Definitely, we have to show some respect to this designer. Many thanks!</p>
                                 </blockquote>
                                 <div class="desc">
-                                    <div class="figure-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/person1.jpg);"></div>
-                                    <h3>Dave Henderson</h3>
+                                    <div class="figure-img" style="background-image: url(<?php echo base_url(); ?>flayout/images/reviews/person4.jpg);"></div>
+                                    <h3>Jorleague</h3>
                                 </div>
                             </div>
                         </div>
@@ -595,7 +617,7 @@ $this->load->view('layout/header1');
 </div>
 
 <?php
-$this->load->view('layout/footer1');
+$this->load->view('layout/footer');
 ?>
 
 </body>
